@@ -293,7 +293,7 @@ body.loaded #preloader{
     margin-bottom: 15px;
 }
 .default-btn{
-    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    background: linear-gradient(to right, #000000 0%, #292929 100%);
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -304,7 +304,7 @@ body.loaded #preloader{
     display: inline-block;
 }
 .default-btn:hover{
-    background: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+    background: linear-gradient(to left, #000000 0%, #292929 100%);
     color: #fff;
 }
 
@@ -657,7 +657,7 @@ ul.nav > li > a.active{
     z-index: 1;
 }
 .how-it-works-section:before{
-    background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background: linear-gradient(to bottom, #292929 0%, #000000 100%);
     content: "";
     position: absolute;
     width: 100%;
@@ -967,7 +967,7 @@ ul.nav > li > a.active{
     z-index: 1;
 }
 .review-section:before{
-    background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background: linear-gradient(to bottom, #292929 0%, #000000 100%);
     content: "";
     position: absolute;
     width: 100%;
@@ -1010,6 +1010,8 @@ ul.nav > li > a.active{
     font-size: 14px;
     font-style: italic;
     margin-bottom: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .rattings{
     display: inline-block;
@@ -1158,7 +1160,7 @@ ul.nav > li > a.active{
    Subscribe Section
    ========================================================================== */
 .subscribe-section{
-    padding: 50px 0 100px;
+    padding: 250px 0 250px;
 }
 .subscribe-wrap{}
 .subscribe-form{
@@ -1227,7 +1229,7 @@ ul.nav > li > a.active{
    Footer Section
    ========================================================================== */
 .footer-section{
-    background-color: #dd3b5b;
+    background-color: #000000;
     display: block;
     color: #fff;
     text-align: center;
