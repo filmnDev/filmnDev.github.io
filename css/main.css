@@ -506,7 +506,7 @@ ul.nav > li > a.active{
     z-index: 1;
 }
 .hero-section:before{
-    background: linear-gradient(to top, #d3d3d3 0%, #272727 100%);
+    background: linear-gradient(to top, #d3d3d3 0%, #292929 100%);
     content: "";
     width: 100%;
     height: 100%;
@@ -523,6 +523,17 @@ ul.nav > li > a.active{
     color: #fff;
     line-height: 1.5;
     margin: 0 0 25px;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 100vh; /* 화면의 전체 높이 */
+}
+.hero-content .hero-btn{
+    width: 158px;
+    height: 54px;
 }
 .hero-content .download-btn:hover{
     opacity: 0.8;
@@ -664,7 +675,7 @@ ul.nav > li > a.active{
     height: 100%;
     left: 0;
     top: 0;
-    opacity: 0.9;
+    opacity: 0.88;
     z-index: -1;
 }
 .how-content{
@@ -694,6 +705,9 @@ ul.nav > li > a.active{
     color: #ddd;
     margin-bottom: 0;
 }
+.lowercase {
+    text-transform: lowercase !important;
+}
 /* ==========================================================================
    Screenshots Section
    ========================================================================== */
@@ -710,19 +724,19 @@ ul.nav > li > a.active{
     align-items: center;
 }
 .swiper-container .swiper-slide{
-    transform: scale(.65);
+    transform: scale(0.8);
     opacity: 0.2;
     -webkit-transition: all .3s ease;
     transition: all .3s ease
 }
 .swiper-container .swiper-slide-next, 
 .swiper-container .swiper-slide-prev{
-    transform: scale(.75);
+    transform: scale(0.9);
     opacity: 0.85;
 }
 .swiper-container .swiper-slide-active{
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1.25);
      z-index: 100;
 }
 .swiper-container .screen{
@@ -953,7 +967,7 @@ ul.nav > li > a.active{
    Review Section
    ========================================================================== */
 .review-section{
-    background-image: url(../img/how-bg.jpg);
+    background-image: url(../img/userReview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -963,7 +977,7 @@ ul.nav > li > a.active{
     top: 0;
     position: relative;
     overflow: hidden;
-    padding: 120px 0;
+    padding: 100px 0;
     z-index: 1;
 }
 .review-section:before{
@@ -974,7 +988,7 @@ ul.nav > li > a.active{
     height: 100%;
     left: 0;
     top: 0;
-    opacity: 0.9;
+    opacity: 0.88;
     z-index: -1;
 }
 .review-section .section-heading p,
@@ -1099,7 +1113,7 @@ ul.nav > li > a.active{
 }
 .blog-post{}
 .blog-content .read-more{
-    background-color: #ff0844;
+    background-color: #000000;
     font-size: 15px;
     font-weight: 500;
     text-transform: capitalize;
@@ -1112,7 +1126,7 @@ ul.nav > li > a.active{
     margin: 0;
 }
 .blog-content .read-more:hover{
-    background-color: #0bbf6c;
+    background-color: #292929;
     color: #fff;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform: translateY(1.1);
@@ -1171,7 +1185,7 @@ ul.nav > li > a.active{
     position: relative;
 }
 .subscribe-form .form-input{
-    background: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    background: linear-gradient(to right, #000000 0%, #292929 100%);
     display: block;
     color: #fff;
     font-size: 14px;
