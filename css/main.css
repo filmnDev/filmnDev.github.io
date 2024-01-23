@@ -1277,3 +1277,35 @@ ul.nav > li > a.active{
     background-color: #ffb199;
     color: #fff;
 }
+
+.contact-card {
+    border: 1px solid #ccc;
+    padding: 55px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+.contact-card .icon {
+margin-bottom: 15px;
+}
+
+.contact-card .name {
+margin-bottom: 5px;
+font-size: 24px;
+font-weight: bold;
+}
+
+.contact-card .email {
+font-size: 16px;
+color: #878787;
+}
+
+.contact-card .email a {
+    color: #878787;
+    text-decoration: none;
+}
+
+.contact-card .email a:hover {
+    text-decoration: underline;
+}
