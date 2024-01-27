@@ -534,6 +534,9 @@ ul.nav > li > a.active{
 .hero-content h1{
     margin-bottom: 10px;
 }
+.hero-content h2{
+    color: #fff;
+}
 .hero-content p{
     color: #fff;
     line-height: 1.5;
